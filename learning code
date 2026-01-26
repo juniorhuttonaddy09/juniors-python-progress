@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN69SBmo6P0L+j3OEKsOvR0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/juniorhuttonaddy09/juniors-python-progress/blob/main/learning%20code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nXKuOccyKG8h",
+        "outputId": "daf5d8fd-7183-4bbf-cb3f-0839068c806b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: jr\n",
+            "Age: 17\n",
+            "You are not an adult yet\n",
+            "Practicing python 0\n",
+            "Practicing python 1\n",
+            "Practicing python 2\n",
+            "Total: 12\n"
+          ]
+        }
+      ],
+      "source": [
+        "# first python practice\n",
+        "# learning basic python concepts\n",
+        "\n",
+        "name = \"jr\"\n",
+        "age = 17\n",
+        "\n",
+        "print(\"Name:\", name)\n",
+        "print(\"Age:\", age)\n",
+        "\n",
+        "# checking age\n",
+        "if age >= 18:\n",
+        "    print(\"You are an adult\")\n",
+        "else:\n",
+        "    print(\"You are not an adult yet\")\n",
+        "\n",
+        "# loop practice\n",
+        "for i in range(3):\n",
+        "    print(\"Practicing python\", i)\n",
+        "\n",
+        "# function practice\n",
+        "def add_numbers(a, b):\n",
+        "    return a + b\n",
+        "\n",
+        "total = add_numbers(5, 7)\n",
+        "print(\"Total:\", total)\n"
+      ]
+    }
+  ]
+}
